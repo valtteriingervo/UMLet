@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>840</x>
-      <y>920</y>
+      <x>1140</x>
+      <y>200</y>
       <w>200</w>
       <h>60</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>820</x>
-      <y>1140</y>
+      <x>1120</x>
+      <y>420</y>
       <w>200</w>
       <h>60</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1200</x>
-      <y>920</y>
+      <x>1500</x>
+      <y>200</y>
       <w>240</w>
       <h>60</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
-      <y>1360</y>
+      <x>1100</x>
+      <y>640</y>
       <w>260</w>
       <h>60</h>
     </coordinates>
@@ -48,8 +48,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>900</x>
-      <y>960</y>
+      <x>1200</x>
+      <y>240</y>
       <w>80</w>
       <h>220</h>
     </coordinates>
@@ -62,8 +62,8 @@ m2=*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>900</x>
-      <y>1180</y>
+      <x>1200</x>
+      <y>460</y>
       <w>80</w>
       <h>220</h>
     </coordinates>
@@ -76,8 +76,8 @@ m2=*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>980</x>
-      <y>920</y>
+      <x>1280</x>
+      <y>200</y>
       <w>260</w>
       <h>260</h>
     </coordinates>
@@ -90,8 +90,8 @@ m2=*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>640</x>
-      <y>940</y>
+      <x>940</x>
+      <y>220</y>
       <w>240</w>
       <h>520</h>
     </coordinates>
@@ -104,8 +104,8 @@ m2=*
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>220</x>
-      <y>1120</y>
+      <x>520</x>
+      <y>400</y>
       <w>400</w>
       <h>140</h>
     </coordinates>
@@ -118,8 +118,8 @@ bg=gray
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1120</x>
-      <y>1300</y>
+      <x>1420</x>
+      <y>580</y>
       <w>400</w>
       <h>140</h>
     </coordinates>
@@ -132,8 +132,8 @@ bg=gray
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1200</x>
-      <y>1020</y>
+      <x>1500</x>
+      <y>300</y>
       <w>400</w>
       <h>140</h>
     </coordinates>
@@ -147,8 +147,8 @@ bg=gray
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>760</x>
-      <y>720</y>
+      <x>1060</x>
+      <y>0</y>
       <w>400</w>
       <h>160</h>
     </coordinates>
@@ -158,6 +158,134 @@ single user
 ("Original poster")
 bg=gray
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>920</y>
+      <w>280</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>User
+--
+PK: userID
+nickname
+password
+email
+(other profile info)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>1420</y>
+      <w>400</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>Notice
+--
+PK: noticeID
+noticeText
+noticePicture: (optional)
+FK: UserID
+FK: BoardID</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1280</x>
+      <y>920</y>
+      <w>280</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>Notice Board
+--
+PK: BoardID
+boardName
+boardDescription</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>1860</y>
+      <w>400</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>Notice Comment
+--
+PK: commentID
+commentText
+commentPicture: (optional)
+FK: NoticeID
+FK: UserID</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1160</x>
+      <y>1980</y>
+      <w>540</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Foreign keys:
+Which Notice the comment
+belongs to and which User posted it
+in that Notice?
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1160</x>
+      <y>1480</y>
+      <w>540</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>Foreign keys:
+Which User posted in the Notice?
+(Who is the "original poster")
+
+Which Notice Board the Notice
+belongs to? (Ability to have multiple
+notice boards by e.g. theme later
+down the line)
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1660</x>
+      <y>940</y>
+      <w>620</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>E.g. 
+Board name = "Nutrition"
+Board Description = "Talk about how
+to best eat for muscle gain or fat loss"
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>20</x>
+      <y>960</y>
+      <w>540</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>TO-DO: 
+Best way to store passwords?
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
