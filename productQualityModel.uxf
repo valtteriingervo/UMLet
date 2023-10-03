@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>20</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1020</x>
+      <y>760</y>
+      <w>380</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Product Quality Model
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>980</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Functional
+suitability</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>960</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Performance
+efficiency</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1120</x>
+      <y>960</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Usability</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1800</x>
+      <y>940</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Reliability</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2200</x>
+      <y>940</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Security
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>100</x>
+      <y>1160</y>
+      <w>280</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>* Functional completeness: 
+
+* Functional correctness
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>700</x>
+      <y>1080</y>
+      <w>280</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>* Time behavior
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1120</x>
+      <y>1080</y>
+      <w>280</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>* User error protection
+
+* User interface aesthetics
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1780</x>
+      <y>1060</y>
+      <w>280</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>* Maturity
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>2200</x>
+      <y>1060</y>
+      <w>280</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>* Confidentiality
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>320</x>
+      <y>1100</y>
+      <w>280</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>All the needed
+functionality is in the webshop
+style=wordwrap
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>320</x>
+      <y>1260</y>
+      <w>280</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>The functionality is correctly implemented
+style=wordwrap
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>720</x>
+      <y>1140</y>
+      <w>280</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Functions take reasonable amount of time, e.g. to process an order
+style=wordwrap
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1360</x>
+      <y>980</y>
+      <w>280</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>E.g. Check that user really wants to order 20 T-shirts instead of 2
+style=wordwrap
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1360</x>
+      <y>1180</y>
+      <w>280</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Could be manually tested using heuristics
+style=wordwrap
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1800</x>
+      <y>1120</y>
+      <w>280</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Web-shop doesnt crash under semi-normal online shopping times
+style=wordwrap
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>2200</x>
+      <y>1120</y>
+      <w>280</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>No way for normal shoppers to access the "admin" views or data
+
+This might be hard to prove in actual testing
+style=wordwrap
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
