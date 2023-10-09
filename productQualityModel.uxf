@@ -307,8 +307,8 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3154</x>
-      <y>1482</y>
+      <x>3173</x>
+      <y>1558</y>
       <w>513</w>
       <h>323</h>
     </coordinates>
@@ -422,7 +422,7 @@ style=wordwrap</panel_attributes>
     <panel_attributes>All common functionalities which the user expects to be there in a modern webshop are present.
 --
 
-As the user's are young adults and have good digital skills, they have used many webshops previously and have certain expectations for the minimum functionality of the webshop.
+As the users are young adults and have good digital skills, they have used many webshops previously and have certain expectations for the minimum functionality of the webshop.
 bg=gray
 style=wordwrap</panel_attributes>
     <additional_attributes/>
@@ -466,9 +466,10 @@ style=wordwrap</panel_attributes>
       <w>494</w>
       <h>399</h>
     </coordinates>
-    <panel_attributes>
+    <panel_attributes>The site protects the user from possible errors during the web shop use
 --
 
+Protecting the user from mistakes is especially important for our persona David who is pressed for time and Michael who is pressed for money.
 bg=gray
 style=wordwrap</panel_attributes>
     <additional_attributes/>
@@ -481,9 +482,10 @@ style=wordwrap</panel_attributes>
       <w>494</w>
       <h>399</h>
     </coordinates>
-    <panel_attributes>
+    <panel_attributes>The site should be mature in the sense that it doesn't crash or freeze during a shopping session of normal duration
 --
 
+This sub-characteristic is very tied to the image of quality the webshop is trying to signal. Time consuming crashes or freezes might be especially critical for our persona David.
 bg=gray
 style=wordwrap</panel_attributes>
     <additional_attributes/>
@@ -494,11 +496,12 @@ style=wordwrap</panel_attributes>
       <x>3173</x>
       <y>1045</y>
       <w>494</w>
-      <h>399</h>
+      <h>475</h>
     </coordinates>
-    <panel_attributes>
+    <panel_attributes>The site should make sure the safety critical endpoints having to do with purchases or back enfiromation can be authenticated to be the ones who they claim to be
 --
 
+The users want to make sure handling transactions in the site is safe and e.g. their credit card information is protected. Any issues regarding this would cause large distrust and damage to the company's brand.
 bg=gray
 style=wordwrap</panel_attributes>
     <additional_attributes/>
