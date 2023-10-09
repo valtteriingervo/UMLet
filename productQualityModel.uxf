@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>20</zoom_level>
+  <zoom_level>19</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1020</x>
-      <y>760</y>
-      <w>380</w>
-      <h>60</h>
+      <x>1197</x>
+      <y>0</y>
+      <w>361</w>
+      <h>57</h>
     </coordinates>
     <panel_attributes>Product Quality Model
 bg=orange</panel_attributes>
@@ -16,10 +16,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>140</x>
-      <y>980</y>
-      <w>200</w>
-      <h>100</h>
+      <x>608</x>
+      <y>152</y>
+      <w>190</w>
+      <h>95</h>
     </coordinates>
     <panel_attributes>Functional
 suitability</panel_attributes>
@@ -28,10 +28,10 @@ suitability</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>720</x>
-      <y>960</y>
-      <w>200</w>
-      <h>100</h>
+      <x>931</x>
+      <y>152</y>
+      <w>190</w>
+      <h>95</h>
     </coordinates>
     <panel_attributes>Performance
 efficiency</panel_attributes>
@@ -40,10 +40,10 @@ efficiency</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1120</x>
-      <y>960</y>
-      <w>200</w>
-      <h>100</h>
+      <x>1254</x>
+      <y>152</y>
+      <w>190</w>
+      <h>95</h>
     </coordinates>
     <panel_attributes>Usability</panel_attributes>
     <additional_attributes/>
@@ -51,10 +51,10 @@ efficiency</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1800</x>
-      <y>940</y>
-      <w>200</w>
-      <h>100</h>
+      <x>1634</x>
+      <y>152</y>
+      <w>190</w>
+      <h>95</h>
     </coordinates>
     <panel_attributes>Reliability</panel_attributes>
     <additional_attributes/>
@@ -62,10 +62,10 @@ efficiency</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2200</x>
-      <y>940</y>
-      <w>200</w>
-      <h>100</h>
+      <x>2014</x>
+      <y>152</y>
+      <w>190</w>
+      <h>95</h>
     </coordinates>
     <panel_attributes>Security
 </panel_attributes>
@@ -74,10 +74,10 @@ efficiency</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>100</x>
-      <y>1160</y>
-      <w>280</w>
-      <h>200</h>
+      <x>589</x>
+      <y>285</y>
+      <w>266</w>
+      <h>190</h>
     </coordinates>
     <panel_attributes>* Functional completeness: 
 
@@ -88,10 +88,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>700</x>
-      <y>1080</y>
-      <w>280</w>
-      <h>160</h>
+      <x>912</x>
+      <y>266</y>
+      <w>266</w>
+      <h>152</h>
     </coordinates>
     <panel_attributes>* Time behavior
 style=wordwrap</panel_attributes>
@@ -100,24 +100,23 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1120</x>
-      <y>1080</y>
-      <w>280</w>
-      <h>200</h>
+      <x>1254</x>
+      <y>266</y>
+      <w>266</w>
+      <h>190</h>
     </coordinates>
     <panel_attributes>* User error protection
 
-* User interface aesthetics
 style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1780</x>
-      <y>1060</y>
-      <w>280</w>
-      <h>100</h>
+      <x>1615</x>
+      <y>266</y>
+      <w>266</w>
+      <h>95</h>
     </coordinates>
     <panel_attributes>* Maturity
 style=wordwrap</panel_attributes>
@@ -126,107 +125,382 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>2200</x>
-      <y>1060</y>
-      <w>280</w>
-      <h>60</h>
+      <x>2014</x>
+      <y>266</y>
+      <w>266</w>
+      <h>57</h>
     </coordinates>
-    <panel_attributes>* Confidentiality
+    <panel_attributes>* Authenticity
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1482</y>
+      <w>532</w>
+      <h>361</h>
+    </coordinates>
+    <panel_attributes>Scenario: The user attempts to use functionality that is very common for webshops, such as sorting by category or ordering the items in the category from cheapest to most expensive. 
+--
+Stimulus: The most common webshop functionalities can be found on the site
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>874</y>
+      <w>399</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Functional completeness
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>646</x>
+      <y>874</y>
+      <w>399</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Functional correctness
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>627</x>
+      <y>1482</y>
+      <w>513</w>
+      <h>361</h>
+    </coordinates>
+    <panel_attributes>Scenario: User uses any of the site functionality and it works as expected by the user. E.g. the user applies a discount code at checkout which gives -20% for all T-shirts that are over 20 euros.
+--
+Stimulus: In this example, the correct discounted price for all T-shirts over 20 euros is applied at checkout.
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1254</x>
+      <y>874</y>
+      <w>399</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Time behavior
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1254</x>
+      <y>1482</y>
+      <w>513</w>
+      <h>361</h>
+    </coordinates>
+    <panel_attributes>Stimulus: A registered user clicks "go to checkout" after having 10 items in their shopping cart which are all affected by an ongoing sale campaign.
+--
+Response: In under 3 seconds, the webshop calculates the correct prices for each individual item, the total sum of the products and fills in the information of the user 
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1254</x>
+      <y>1881</y>
+      <w>513</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>Stimulus: The user clicks to show a new category of items 
+--
+Response: In under 1 second, the first 25 items of the category are rendered on the client.
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1881</x>
+      <y>874</y>
+      <w>399</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>User error protection
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1862</x>
+      <y>1482</y>
+      <w>513</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Stimulus: The user clicks to clear her whole shopping cart
+--
+Response: The site prompts to user to confirm this action
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1862</x>
+      <y>1710</y>
+      <w>513</w>
+      <h>304</h>
+    </coordinates>
+    <panel_attributes>Stimulus: User clicks to finalize an order in which there is an item which has order quantity set to 10 or above.
+--
+Response: The site prompts to user to confirm that they want to order 10 or more items for each item the quantity is set to such a number.
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2565</x>
+      <y>874</y>
+      <w>399</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Maturity
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2546</x>
+      <y>1482</y>
+      <w>513</w>
+      <h>456</h>
+    </coordinates>
+    <panel_attributes>Stimulus: The user uses the site for 20 minutes straight using any available functionality, e.g. browsing by category, adding items to her cart and deleting items from her cart
+--
+Response: During the 20 minutes all of the functionality works as expected and there are no crashes, freezes or any unexpected errors which might prevent the user from using any of the site functionality.
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3173</x>
+      <y>874</y>
+      <w>399</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Authenticity
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3154</x>
+      <y>1482</y>
+      <w>513</w>
+      <h>323</h>
+    </coordinates>
+    <panel_attributes>Stimulus: The user clicks to finalize her order. 
+--
+Response: All subsequent operations that are related to payments or that require the user to insert bank information are done using the HTTPS protocol, more specifically HTTPS which utilizes TLS. 
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1064</x>
+      <y>494</y>
+      <w>190</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>LEGEND:
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1235</x>
+      <y>494</y>
+      <w>399</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>ISO-25010 Product Quality Model characteristic
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1235</x>
+      <y>608</y>
+      <w>399</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>* ISO-25010 Product Quality Model sub-characteristic
+
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>114</x>
+      <y>2185</y>
+      <w>190</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>LEGEND:
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>285</x>
+      <y>2185</y>
+      <w>361</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>ISO-25010 Product Quality Model sub-characteristic
+bg=green
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>285</x>
+      <y>2565</y>
+      <w>532</w>
+      <h>247</h>
+    </coordinates>
+    <panel_attributes>Stimulus: Text describing a stimulus which might affect the behavior of the site
+--
+Response: Text describing the expected behavior of the webshop after the scenario has occurred
 style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>320</x>
-      <y>1100</y>
-      <w>280</w>
-      <h>140</h>
+      <x>1254</x>
+      <y>1045</y>
+      <w>494</w>
+      <h>399</h>
     </coordinates>
-    <panel_attributes>All the needed
-functionality is in the webshop
-style=wordwrap
-bg=gray</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>320</x>
-      <y>1260</y>
-      <w>280</w>
-      <h>120</h>
-    </coordinates>
-    <panel_attributes>The functionality is correctly implemented
-style=wordwrap
-bg=gray</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>720</x>
-      <y>1140</y>
-      <w>280</w>
-      <h>180</h>
-    </coordinates>
-    <panel_attributes>Functions take reasonable amount of time, e.g. to process an order
-style=wordwrap
-bg=gray</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>1360</x>
-      <y>980</y>
-      <w>280</w>
-      <h>180</h>
-    </coordinates>
-    <panel_attributes>E.g. Check that user really wants to order 20 T-shirts instead of 2
-style=wordwrap
-bg=gray</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>1360</x>
-      <y>1180</y>
-      <w>280</w>
-      <h>180</h>
-    </coordinates>
-    <panel_attributes>Could be manually tested using heuristics
-style=wordwrap
-bg=gray</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>1800</x>
-      <y>1120</y>
-      <w>280</w>
-      <h>220</h>
-    </coordinates>
-    <panel_attributes>Web-shop doesnt crash under semi-normal online shopping times
-style=wordwrap
-bg=gray</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>2200</x>
-      <y>1120</y>
-      <w>280</w>
-      <h>320</h>
-    </coordinates>
-    <panel_attributes>No way for normal shoppers to access the "admin" views or data
+    <panel_attributes>Functionality in the site takes a reasonable amount of time to complete.
 
-This might be hard to prove in actual testing
-style=wordwrap
-bg=gray</panel_attributes>
+There are no extended waiting periods where the user waits for the site to process the user's inputs or actions.
+--
+This characteristic contributes to a good user experience and a notion of quality for the users.
+bg=gray
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>0</x>
+      <y>1045</y>
+      <w>494</w>
+      <h>399</h>
+    </coordinates>
+    <panel_attributes>All common functionalities which the user expects to be there in a modern webshop are present.
+--
+
+As the user's are young adults and have good digital skills, they have used many webshops previously and have certain expectations for the minimum functionality of the webshop.
+bg=gray
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>285</x>
+      <y>2318</y>
+      <w>494</w>
+      <h>228</h>
+    </coordinates>
+    <panel_attributes>Explanation as to what the sub-characteristic more concretely means in this context
+--
+Reasoning for why this sub-characteristic is of importance to the system
+bg=gray
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>646</x>
+      <y>1045</y>
+      <w>494</w>
+      <h>323</h>
+    </coordinates>
+    <panel_attributes>The functionality present on the site works as the user expects it to
+--
+
+Errors in the functionality of the site might degrade the customer's view of the company and lead them to use an alternative webshop.
+bg=gray
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1862</x>
+      <y>1045</y>
+      <w>494</w>
+      <h>399</h>
+    </coordinates>
+    <panel_attributes>
+--
+
+bg=gray
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>2565</x>
+      <y>1045</y>
+      <w>494</w>
+      <h>399</h>
+    </coordinates>
+    <panel_attributes>
+--
+
+bg=gray
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>3173</x>
+      <y>1045</y>
+      <w>494</w>
+      <h>399</h>
+    </coordinates>
+    <panel_attributes>
+--
+
+bg=gray
+style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
